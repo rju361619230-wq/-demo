@@ -1,0 +1,55 @@
+{
+  "vehicles": [
+    {
+      "id": "v1",
+      "vin": "DEMO-VIN-0001",
+      "make": "示例牌",
+      "model": "S-Box",
+      "year": 2021,
+      "mileage": 12000,
+      "price": 128800,
+      "startPrice": 100000,
+      "image": "https://picsum.photos/seed/v1/400/240",
+      "auction": {
+        "status": "live",
+        "endsAt": "2099-12-31T23:59:59.000Z",
+        "bids": []
+      }
+    },
+    {
+      "id": "v2",
+      "vin": "DEMO-VIN-0002",
+      "make": "商用系",
+      "model": "CargoPro",
+      "year": 2019,
+      "mileage": 45000,
+      "price": 68800,
+      "startPrice": 50000,
+      "image": "https://picsum.photos/seed/v2/400/240",
+      "auction": {
+        "status": "ready",
+        "endsAt": null,
+        "bids": []
+      }
+    },
+    {
+      "id": "v3",
+      "vin": "DEMO-VIN-0003",
+      "make": "豪华系",
+      "model": "Lux-9",
+      "year": 2020,
+      "mileage": 8000,
+      "price": 498000,
+      "startPrice": 450000,
+      "image": "https://picsum.photos/seed/v3/400/240",
+      "auction": {
+        "status": "ended",
+        "endsAt": null,
+        "bids": [
+          { "id":"b1","bidder":"Demo 买家","amount":470000,"time":"2025-11-01T08:00:00Z" }
+        ],
+        "winner": { "bidder": "Demo 买家", "amount": 470000 }
+      }
+    }
+  ]
+}
